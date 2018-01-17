@@ -1,0 +1,27 @@
+nav {
+  background: black;
+  color: white;
+  height: 5em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // justify-content: flex-end;
+}
+
+header {
+  background: blue;
+  height: 20em;
+  background-image: url("../img/TS.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 274px;
+    height: 154px;
+  }
+}

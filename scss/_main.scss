@@ -1,0 +1,61 @@
+.img-container {
+  width: 100%;
+  height: auto;
+
+  .logo {
+    width: 60%;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.background-image, .lego-cover, .horror-cover, .ski-cover {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  display: block;
+}
+
+.img-wrap {
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  .text-wrap {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 1px black;
+  }
+
+  a {
+    color: white;
+    margin-top: 1em;
+    padding: .5em 3em;
+    border: 1px solid;
+  }
+
+  h3 {
+    margin-bottom: 1em;
+  }
+}
+
+.front-page-text-wrapper {
+  width: 100%;
+  height: auto;
+  // background-color: white;
+  h1 {
+    margin: 2rem;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    margin: 2rem;
+  }
+}
